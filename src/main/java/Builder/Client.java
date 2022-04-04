@@ -9,7 +9,7 @@ import main.java.BuilderPattern.director.Director;
 /**
  * Demo class. Everything comes together here.
  */
-public class Demo {
+public class Client {
 
     public static void main(String[] args) {
         Director director = new Director();
