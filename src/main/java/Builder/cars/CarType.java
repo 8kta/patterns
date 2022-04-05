@@ -1,5 +1,5 @@
-package main.java.BuilderPattern.cars;
+package Builder.cars;
 
 public enum CarType {
-    CITY_CAR, SPORTS_CAR, SUV
+	CITY_CAR, SPORTS_CAR, SUV
 }

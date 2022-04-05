@@ -1,4 +1,4 @@
-package main.java.BuilderPattern.components;
+package Builder.components;
 
 /**
  * Just another feature of a car.

@@ -1,10 +1,10 @@
-package main.java.BuilderPattern.builders;
+package Builder.builders;
 
-import main.java.BuilderPattern.cars.CarType;
-import main.java.BuilderPattern.components.Engine;
-import main.java.BuilderPattern.components.GPSNavigator;
-import main.java.BuilderPattern.components.Transmission;
-import main.java.BuilderPattern.components.TripComputer;
+import Builder.cars.CarType;
+import Builder.components.Engine;
+import Builder.components.GPSNavigator;
+import Builder.components.Transmission;
+import Builder.components.TripComputer;
 
 /**
  * Builder interface defines all possible ways to configure a product.

@@ -1,6 +1,6 @@
-package main.java.BuilderPattern.components;
+package Builder.components;
 
-import main.java.BuilderPattern.cars.Car;
+import Builder.cars.Car;
 
 /**
  * Just another feature of a car.
