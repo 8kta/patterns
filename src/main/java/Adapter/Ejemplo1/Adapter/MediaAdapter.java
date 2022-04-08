@@ -6,11 +6,11 @@ import Adapter.Ejemplo1.AdvancedMediaPlayer.iTunesPlayer;
 import Adapter.Ejemplo1.MediaPlayer.MediaPlayer;
 
 //MediaPayer is the target
-public class MusicAdapter implements MediaPlayer {
+public class MediaAdapter implements MediaPlayer {
 
     AdvancedMusicPlayer advancedMusicPlayer;
 
-    public MusicAdapter(String audioType) {
+    public MediaAdapter(String audioType) {
 
         if (audioType.equalsIgnoreCase("WAV")) {
             //SpecificRequest (Object)

@@ -1,9 +1,9 @@
 package Adapter.Ejemplo1.MediaPlayer;
 
-import Adapter.Ejemplo1.Adapter.MusicAdapter;
+import Adapter.Ejemplo1.Adapter.MediaAdapter;
 
 public class VideoPlayer implements MediaPlayer {
-    MusicAdapter mediaAdapter;
+    MediaAdapter mediaAdapter;
 
     @Override
     public void play(String videoType, String fileName) {
@@ -15,7 +15,7 @@ public class VideoPlayer implements MediaPlayer {
 
         //mediaAdapter is providing support to play other file formats
         else if (videoType.equalsIgnoreCase("MKV") || videoType.equalsIgnoreCase("mp4Video" )) {
-            mediaAdapter = new MusicAdapter(videoType);
+            mediaAdapter = new MediaAdapter(videoType);
             mediaAdapter.play(videoType, fileName);
         } else {
             System.out.println("Invalid media. " + videoType + " format not supported");
