@@ -11,8 +11,7 @@ public class Player implements MediaPlayer {
         if (EnumOperations.isInEnum(type, MusicFormats.class)) {
             mediaAdapter = new MediaAdapter(type);
             mediaAdapter.playMusic(type, fileName);
-        }
-        else {
+        } else {
             System.out.println("This is not a compatible music format");
         }
     }
@@ -22,12 +21,10 @@ public class Player implements MediaPlayer {
         //inbuilt support to play avi music files
         if (type.equalsIgnoreCase("AVI")) {
             System.out.println("Playing avi video file (already supported). Name: " + fileName);
-        }
-        else if (EnumOperations.isInEnum(type, VideoFormats.class)) {
+        } else if (EnumOperations.isInEnum(type, VideoFormats.class)) {
             mediaAdapter = new MediaAdapter(type);
             mediaAdapter.playVideo(type, fileName);
-        }
-        else {
+        } else {
             System.out.println("This is not a compatible video format");
         }
     }
