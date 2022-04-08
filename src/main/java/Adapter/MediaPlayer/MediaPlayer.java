@@ -1,4 +1,4 @@
-package Adapter.Ejemplo1.MediaPlayer;
+package Adapter.MediaPlayer;
 
 public interface MediaPlayer {
     void playMusic(String audioType, String fileName);

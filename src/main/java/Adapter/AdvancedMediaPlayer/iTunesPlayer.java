@@ -1,4 +1,4 @@
-package Adapter.Ejemplo1.AdvancedMediaPlayer;
+package Adapter.AdvancedMediaPlayer;
 
 public class iTunesPlayer implements AdvancedMusicPlayer {
 

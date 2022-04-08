@@ -1,4 +1,4 @@
-package Adapter.Ejemplo1.Utils;
+package Adapter.Utils;
 
 public class EnumOperations {
     public static <E extends Enum<E>> boolean isInEnum(String value, Class<E> enumClass) {

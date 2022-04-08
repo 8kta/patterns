@@ -1,6 +1,6 @@
-package Adapter.Ejemplo1;
+package Adapter;
 
-import Adapter.Ejemplo1.MediaPlayer.Player;
+import Adapter.MediaPlayer.Player;
 
 public class AdapterPatternClient {
     public static void main(String[] args) {

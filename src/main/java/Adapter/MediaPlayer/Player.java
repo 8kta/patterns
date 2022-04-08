@@ -1,7 +1,7 @@
-package Adapter.Ejemplo1.MediaPlayer;
+package Adapter.MediaPlayer;
 
-import Adapter.Ejemplo1.Adapter.MediaAdapter;
-import Adapter.Ejemplo1.Utils.EnumOperations;
+import Adapter.Adapter.MediaAdapter;
+import Adapter.Utils.EnumOperations;
 
 public class Player implements MediaPlayer {
     MediaAdapter mediaAdapter;

@@ -1,8 +1,8 @@
-package Adapter.Ejemplo1.Adapter;
+package Adapter.Adapter;
 
-import Adapter.Ejemplo1.AdvancedMediaPlayer.AdvancedMusicPlayer;
-import Adapter.Ejemplo1.AdvancedMediaPlayer.iTunesPlayer;
-import Adapter.Ejemplo1.MediaPlayer.MediaPlayer;
+import Adapter.AdvancedMediaPlayer.AdvancedMusicPlayer;
+import Adapter.AdvancedMediaPlayer.iTunesPlayer;
+import Adapter.MediaPlayer.MediaPlayer;
 
 //MediaPayer is the target
 public class MediaAdapter implements MediaPlayer {
