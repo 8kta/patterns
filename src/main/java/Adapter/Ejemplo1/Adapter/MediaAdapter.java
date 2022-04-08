@@ -13,9 +13,13 @@ public class MediaAdapter implements MediaPlayer {
         advancedMusicPlayer = new iTunesPlayer();
     }
 
+    @Override
+    public void playMusic(String audioType, String fileName) {
+        advancedMusicPlayer.playWithAlbumCover(fileName);
+    }
 
     @Override
-    public void play(String audioType, String fileName) {
-        advancedMusicPlayer.playMusic(fileName);
+    public void playVideo(String videoType, String fileName) {
+        advancedMusicPlayer.playFullScreen(fileName);
     }
 }

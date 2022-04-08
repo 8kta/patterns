@@ -1,14 +1,14 @@
 package Adapter.Ejemplo1;
 
-import Adapter.Ejemplo1.MediaPlayer.AudioPlayer;
+import Adapter.Ejemplo1.MediaPlayer.Player;
 
 public class AdapterPatternClient {
     public static void main(String[] args) {
-        AudioPlayer audioPlayer = new AudioPlayer();
+        Player player = new Player();
 
-        audioPlayer.play("Mp3", "beyond the horizon.Mp3");
-        audioPlayer.play("Mp4", "alone.Mp4");
-        audioPlayer.play("WAV", "far far away.WAV");
-        audioPlayer.play("avi", "mind me.avi");
+        player.playMusic("MP3", "beyond the horizon.Mp3");
+        player.playMusic("MP4", "alone.Mp4");
+        player.playMusic("WAV", "far far away.WAV");
+        player.playMusic("AVI", "mind me.avi");
     }
 }

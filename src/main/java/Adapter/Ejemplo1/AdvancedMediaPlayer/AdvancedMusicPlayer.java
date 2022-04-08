@@ -1,7 +1,7 @@
 package Adapter.Ejemplo1.AdvancedMediaPlayer;
 
 public interface AdvancedMusicPlayer {
-    public void playVideo(String fileName);
+    void playFullScreen(String fileName);
 
-    public void playMusic(String fileName);
+    void playWithAlbumCover(String fileName);
 }
